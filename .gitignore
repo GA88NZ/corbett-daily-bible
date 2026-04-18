@@ -1,0 +1,25 @@
+# Raw audio and whisper working files — never commit these (too big)
+audio/
+*.wav
+*.mp3
+*.m4a
+
+# Whisper intermediate output
+*.srt
+*.vtt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.Python
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
